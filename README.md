@@ -17,7 +17,11 @@ da maneira mais rápida possível.
 
 ```sh
 issue {int}
+```
 
+### Output
+
+```
 - MSA-{int}: {Título da issue}
 ```
 
