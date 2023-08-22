@@ -13,18 +13,12 @@ GITLAB_TOKEN={token}
 Consultar o nome e a descrição de issues no Gitlab a partir do terminal,
 da maneira mais rápida possível.
 
-### Input esperado
+### Utilizando
 
 ```sh
-issue 770
-```
+issue {int}
 
-### Output esperado
-
-```
-MSA-770: {Título da issue}
-
-{Descrição da issue}
+- MSA-{int}: {Título da issue}
 ```
 
 ## Desenvolvimento
