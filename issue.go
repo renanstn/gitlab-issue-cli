@@ -14,6 +14,7 @@ const baseURL = "https://git.mop.equinix.com.br/api/v4"
 
 type Issue struct {
 	Title string `json:"title"`
+	Url string `json:"web_url"`
 	// Destription string `json:"description"`
 }
 
@@ -73,6 +74,7 @@ func main() {
 
 	// Print results
 	for _, issue := range issues {
-		fmt.Println("- " + issue.Title)
+		fmt.Println("- Title: " + issue.Title)
+		fmt.Println("- URL:   " + issue.Url)
 	}
 }
